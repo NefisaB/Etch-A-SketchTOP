@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 15px;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: white;
+    background-color: blue;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 10px;
+}
+
+button:active {
+    transform: scale(1.1);
+}
+
+.main {
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.row {
+    display: flex;
+    gap: 1px;
+}
+
+.cell {
+    box-sizing: border-box;
+    border: 1px solid blue;
+}
